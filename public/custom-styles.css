@@ -365,7 +365,7 @@ body {
 
 body,
 body.loaded {
-  background-color: transparent;
+  background-color: var(--base-500);
 }
 
 section {
