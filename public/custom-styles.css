@@ -1,3 +1,8 @@
+html {
+  background-color: var(--base-500);
+  
+}
+
 .stack > [data-v-7b4fe70e] {
   margin: 0;
 }
