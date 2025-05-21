@@ -3967,6 +3967,10 @@ fieldset legend {
   padding-right: 125px
 }
 
+.error-message-popup .top-spacer {
+  height: 50% !important
+}
+
 .error-message-popup .overlay {
   position: absolute;
   left: 0;
