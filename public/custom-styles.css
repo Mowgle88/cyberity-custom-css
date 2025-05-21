@@ -3999,3 +3999,13 @@ fieldset legend {
   position: relative;
   z-index: 10;
 }
+
+.hint-animation[data-v-ef0b4336],.spinner-container[data-v-ef0b4336] {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 2;
+  background: var(--base-400)
+}
