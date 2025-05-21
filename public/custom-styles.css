@@ -3977,7 +3977,7 @@ fieldset legend {
   right: 0;
   top: 0;
   bottom: 0;
-  background: '#00000090' !important;
+  background: #00000090;
   border-radius: 20px;
   display: -webkit-box;
   display: flex;
