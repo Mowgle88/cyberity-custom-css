@@ -334,6 +334,10 @@ html {
   background-color: var(--base-500);
 }
 
+span {
+  color: var(--base-200)
+}
+
 #app {
   min-width: 280px;
 }
@@ -3961,4 +3965,33 @@ fieldset legend {
   color: var(--base-200);
   margin: 0 0 5px;
   padding-right: 125px
+}
+
+.error-message-popup .overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: '#00000070';
+  border-radius: 20px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.error-message-popup .popup {
+  background: var(--base-400);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  max-width: 80%;
+  padding: 32px;
+  position: relative;
+  z-index: 10;
 }
