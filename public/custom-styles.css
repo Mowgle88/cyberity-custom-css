@@ -4009,3 +4009,13 @@ fieldset legend {
   z-index: 2;
   background: var(--base-500)
 }
+
+.hint-animation[data-v-fbd167101],.spinner-container[data-v-fbd16710] {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 2;
+  background: var(--base-500)
+}
