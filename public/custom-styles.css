@@ -1665,7 +1665,8 @@ textarea {
   color: var(--base-50);
   border: 0;
   width: 100%;
-  border-bottom: 2px solid rgba(42, 52, 143, 0.12);
+  /* border-bottom: 2px solid rgba(42, 52, 143, 0.12); */
+  border-bottom: 2px solid var(--base-200);
   outline: none;
   box-sizing: border-box;
 }
@@ -1703,7 +1704,8 @@ select {
 input:focus,
 select:focus,
 textarea:focus {
-  border-bottom-color: var(--success-color);
+  /* border-bottom-color: var(--success-color); */
+  border-bottom-color: var(--base-50);
 }
 
 select:focus {
@@ -4018,4 +4020,8 @@ fieldset legend {
   justify-content: space-around;
   z-index: 2;
   background: var(--base-500)
+}
+
+input[placeholder]::placeholder {
+  color: var(--base-50);
 }
